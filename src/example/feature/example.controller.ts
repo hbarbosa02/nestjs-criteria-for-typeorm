@@ -34,7 +34,7 @@ export class ExampleController {
       filters.push(new Filter('name', FilterOperator.CONTAINS, name));
     }
 
-    const order = orderBy ? new Order(orderBy, orderDirection || OrderDirection.ASC) : undefined;
+    const order = orderBy ? new Order(orderBy, orderDirection) : undefined;
 
     const criteria = new Criteria(filters, order, limit, offset);
 
