@@ -13,7 +13,7 @@ export class ExampleController {
   /**
    * GET /examples
    * An endpoint to search for examples using query parameters.
-   * Example: /examples?name=computer&minPrice=500&orderBy=price&orderDirection=DESC&limit=20
+   * Example: /examples?name=computer&orderBy=name&orderDirection=DESC&limit=20
    */
   @Get()
   async search(
