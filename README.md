@@ -52,7 +52,7 @@ src/
     │       └── example.repository.ts # Repositório da entidade Example      
     │      
     └── feature/          
-    └── example.controller.ts  # Controller da entidade Example
+        └── example.controller.ts  # Controller da entidade Example
 ```
 
 Como Utilizar
